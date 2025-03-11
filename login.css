@@ -1,0 +1,125 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1555421689-491a97ff2040?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px; /* Adjusted to bring the header closer to the form */
+}
+
+.header h1 {
+  color: #060606;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #040404;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.login-form {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px; /* Adjusted to move the form higher */
+}
+
+.login-form h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.login-form label {
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.login-form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.signup-link {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+  color: #0056b3;
+}
+
+/* Additional styles for the registration page */
+.login-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.login-link {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.login-link a:hover {
+  color: #0056b3;
+}
